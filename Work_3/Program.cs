@@ -1,4 +1,4 @@
-﻿
+﻿/* Task 1
 bool IsPolendrom(int number)
 {
 
@@ -12,10 +12,9 @@ Console.WriteLine("Ввидите пятизначное число ");
 int number=Convert.ToInt32(Console.ReadLine());
 bool num=IsPolendrom(number);
 Console.WriteLine(num);
+*/
 
-
-
-/* Task 2 
+/* Task 2
 double Lenth(double xa, double ya, double xb, double yb, double za, double zb)
 {
     double Lenth=Math.Sqrt((yb-ya)*(yb-ya)+(xb-xa)*(xb-xa)+(zb-za)*(zb-za));
@@ -35,9 +34,10 @@ double za=Convert.ToUInt32(Console.ReadLine());
 Console.Write("Ввидите координаты Z точки B ");
 double zb=Convert.ToUInt32(Console.ReadLine());
 
-double lenth=Lenth(xa,ya,xb,yb,za,zb);
-Console.Write($"Растояние между точками А и B  равно {Lenth} ");
+ double  lenth=Lenth(xa,ya,xb,yb,za,zb);
+ Console.Write($"Растояние между точками А и B  равно {lenth} ");
 */
+ 
 /* Task 3
 void Cube(int num)
 {
