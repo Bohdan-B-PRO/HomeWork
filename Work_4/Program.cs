@@ -1,4 +1,20 @@
-﻿//Task2
+﻿//Task 1
+int PowerNumber(int A, int B )
+{
+    for( A = 1; A < B; A++);
+    A*=A;
+    return A;
+}
+Console.Write("Input number A ");
+int numberA= Convert.ToInt32(Console.ReadLine());
+
+Console.Write("Input number B ");
+int numberB= Convert.ToInt32(Console.ReadLine());
+
+Console.Write($"Power of {numberA} is {numberB}");
+
+
+//Task2
 /*
 int SumOfNumber(int num)
 {
@@ -10,16 +26,13 @@ int SumOfNumber(int num)
     }
     return count; 
 }
-
 Console.Write("Ввидите целое число ");
 int number = Convert.ToInt32(Console.ReadLine());
-
 int result = SumOfNumber(number);
-
 Console.WriteLine($"Сумма цыфр из числа {number} будет {result} ");
 */
 //TAsk 3
-
+/*
 int[]GenerationRandomArray(int size, int minValue, int maxValue)  //Метод для генирации массива с случайными числами
 {
     int[] newArray= new int[size];
@@ -56,14 +69,5 @@ void PrintArray(int [] array)  //Метод для вывода массива!
 
 int[]array= GenerationArray(8);
 PrintArray(array);
-
-
-/*
-int SumOfPositive(int []array)
-{
-    int sum = 0;
-    for(int i = 0; i < array.Length; i++);
-    if(array[i] > 0) sum += array[i];
-
-}
 */
+
