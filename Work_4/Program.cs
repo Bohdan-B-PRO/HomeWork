@@ -11,6 +11,9 @@ int numberA= Convert.ToInt32(Console.ReadLine());
 Console.Write("Input number B ");
 int numberB= Convert.ToInt32(Console.ReadLine());
 
+PowerNumber(numberA, numberB);
+
+
 Console.Write($"Power of {numberA} is {numberB}");
 
 
