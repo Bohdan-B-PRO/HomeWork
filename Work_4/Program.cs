@@ -1,4 +1,5 @@
 ﻿//Task 1
+/*
 int PowerNumber(int A, int B )
 {
     for( A = 1; A < B; A++);
@@ -15,6 +16,7 @@ PowerNumber(numberA, numberB);
 
 
 Console.Write($"Power of {numberA} is {numberB}");
+*/
 
 
 //Task2
