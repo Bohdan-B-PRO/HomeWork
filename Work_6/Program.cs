@@ -22,7 +22,7 @@ void  LineIntersection( int b1, int k1, int b2, int k2)
   int y = 0;
   x = (b2 - b1) / (k1 - k2);
   y = k1 * (b2 - b1) / (k1 - k2) + b1;
- //Console.Write(x,y);
+ Console.Write($"Координаты точки пересечения {x},{y} ");
 }
 
 Console.WriteLine("Ввидите координаты b1 ");
@@ -36,5 +36,5 @@ int k2 = Convert.ToInt32(Console.ReadLine());
 LineIntersection(b1, k1, b2, k2);
 
 
-Console.Write("Координаты пересечения точе x,y " + LineIntersection );
+//Console.Write("Координаты пересечения точе x,y " + LineIntersection );
 
