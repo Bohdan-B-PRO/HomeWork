@@ -12,6 +12,8 @@ int[,]CreateRandom2dArray(int rows, int columns, int minValue, int maxValue)
     return newArray;
 }
 
+
+
 void Show2dArray(int[,]array)
 {
     for(int i = 0; i < array.GetLength(0); i++ )
@@ -36,3 +38,4 @@ int max = Convert.ToInt32(Console.ReadLine());
 
 int[,]array= CreateRandom2dArray(n,m, min, max);
 Show2dArray(array);
+
