@@ -38,7 +38,7 @@ int max = Convert.ToInt32(Console.ReadLine());
 int[,]array= CreateRandom2dArray(n,m, min, max);
 Show2dArray(array);
 */
-
+// Task 2
 int[,]CreateRandom2dArray(int rows, int columns, int minValue, int maxValue)
 {
     int [,]newArray = new int[rows, columns];
